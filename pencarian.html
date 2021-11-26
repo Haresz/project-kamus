@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Browser</title>        
+        <link rel="stylesheet" href="assets/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>            
+            <div class="bar">
+                <img class="logo" src="assets/img/logo.png">
+                <div class="search-bar">                    
+                    <input id="input-search" type="text" placeholder="Search the web..">
+                    <button id="btn-search" type="submit" onclick="cari(this)" tabindex="-1"></button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="content">
+                <article class="card">
+                    <div class="pesan">
+                        <h3>Anda Belum Melakukan Pencarian</h3>
+                    </div>
+                </article>
+
+                <!-- <article class="card">
+                    <a class="title" href="#"><h3>Judul konten</h3></a>
+                    <small><a class="url" href="https://www.dicoding.com/">https://www.dicoding.com/</a></small>                    
+                    <div class="wrap">
+                        <a class="description" href="#">
+                            <p>We want to use the aforementioned picture of the day as a background. However, we cropped the image to 4x3 for some reason. We could set the background-size property to some fixed length, but we will focus on contain and cover. Note that I also assume that we didn't mangle the width and/or height of body</p>
+                            <p>We want to use the aforementioned picture of the day as a background. However, we cropped the image to 4x3 for some reason. We could set the background-size property to some fixed length, but we will focus on contain and cover. Note that I also assume that we didn't mangle the width and/or height of body</p>
+                        </a>
+                    </div>                                        
+                </article>         -->
+            </div>
+            <aside>
+                <article class="profile card">
+                    <header>
+                        <h2>Profil</h2>                        
+                        <figure>
+                            <img src="assets/img/foto-profil.jpeg">
+                            <figcaption>Foto Profil</figcaption>
+                        </figure>
+                    </header>
+                    <section>
+                        <h4>About me</h4>
+                        <p>
+                            &emsp;&emsp;Saya seorang mahasiswa yang belajar di Universitas Trunojoyo Madura jurusan Teknik Informatika, 
+                            saya sangat menyukai pemrograman web terutama disisi back-end. Sekarang saya berusaha meningkatkan skill saya untuk persiapan masuk ke dunia kerja. 
+                            Saya sedang berada di semester 8 dan sedang melakukan penelitian tugas akhir atau biasa disebut skripsi. 
+                            Saya membuat template web browser sekaligus untuk skripsi saya yang berkaitan dengan teknologi mesin pencarian.
+                        </p>
+
+                        <h4>Data diri</h4>
+                        <table>                            
+                            <tr>
+                                <td>Nama</td>
+                                <td>&nbsp;:&nbsp;</td>
+                                <td>Moh. Ilham Burhanuddin</td>
+                            </tr>                            
+                            <tr>
+                                <td>Agama</td>
+                                <td>&nbsp;:&nbsp;</td>
+                                <td>Islam</td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>&nbsp;:&nbsp;</td>
+                                <td><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=batandos158@gmail.com" target="_blank">batandos158@gmail.com</a></td>                                
+                            </tr>
+                            <tr>
+                                <td>Alamat</td>
+                                <td>&nbsp;:&nbsp;</td>
+                                <td>Desa Maneron, Kec. Sepulu, Kab. Bangkalan, Madura, Jawa Timur</td>
+                            </tr>
+                            <tr>
+                                <td>Website</td>
+                                <td>&nbsp;:&nbsp;</td>
+                                <td><a href="https://pacman97.blogspot.com/" target="_blank">pacman97.blogspot.com</a></td>
+                            </tr>
+                            
+                        </table>
+                    </section>
+                </article>
+            </aside>
+        </main>
+        <footer>
+            <p>Web Browser &copy; 2020, ilham76c</p>
+        </footer>
+        <script src="assets/script.js"></script>
+    </body>
+</html>
